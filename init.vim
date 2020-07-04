@@ -23,6 +23,8 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'vim-vdebug/vdebug'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-obsession'
+Plug 'gruvbox-community/gruvbox'
+Plug 'shinchu/lightline-gruvbox.vim'
 
 "Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
