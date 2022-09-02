@@ -55,6 +55,8 @@ nnoremap <C-p>b :Buffers<CR>
 
 inoremap jk <ESC>
 
+inoremap <expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<CR>"
+
 " A shortcut for substitute
 noremap ;; :%s:::gc<Left><Left><Left><Left>
 
@@ -63,8 +65,6 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
-
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call ShowDocumentation()<CR>
